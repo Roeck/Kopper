@@ -1,9 +1,15 @@
 import React from 'react';
+import CommentSharpIcon from '@material-ui/icons/CommentSharp';
 
 function Header() {
   return (
     <header>
-      <h1>Kopper</h1>
+      <div>
+        <h1>
+          <CommentSharpIcon className='icon' />
+          Kopper
+        </h1>
+      </div>
     </header>
   );
 }

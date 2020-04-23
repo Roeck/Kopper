@@ -18,10 +18,16 @@ header h1 {
   background-image: -webkit-radial-gradient(afdaee, #6c6ab3);
   padding: 10px 15px;
   box-shadow: 0 0 10px 0 #9ccce2;
+  color: #9ccce2;
+  text-shadow: 2px 2px #270363;
+}
+
+.icon {
+  padding-left: 5px;
 }
 
 .note {
-  background: radial-gradient(#afdaee, #6c6ab3);
+  background: radial-gradient(#afdaee, #7e7cd3);
   border-radius: 7px;
   box-shadow: 0 0 10px 0 #434272;
   padding: 10px;
@@ -50,6 +56,7 @@ header h1 {
   color: #b8c8ec;
   text-shadow: 0px 1px 0px #54178e;
   font-weight: 10px;
+  font-size: 15px;
   border-radius: 20%;
   width: 50px;
   height: 36px;
@@ -97,17 +104,18 @@ form textarea {
   font-size: 1.2em;
   font-family: inherit;
   resize: none;
+  background: #e7def3;
 }
 form button {
   position: absolute;
-  right: 18px;
-  bottom: -18px;
+  right: 30px;
+  bottom: -20px;
   background: radial-gradient(circle, #91c2d8, #3a3966);
-  color: #fff;
+  color: #ffffff;
   border: none;
   border-radius: 50%;
-  width: 36px;
-  height: 36px;
+  width: 40px;
+  height: 40px;
   box-shadow: 0 10px 8px rgba(0, 0, 0, 0.3);
   cursor: pointer;
   outline: none;
